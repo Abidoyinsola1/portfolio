@@ -1,25 +1,11 @@
 <p id="notice"><%= notice %></p>
-
-<h1>Pages</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @pages.each do |page| %>
-      <tr>
-        <td><%= link_to 'Show', page %></td>
-        <td><%= link_to 'Edit', edit_page_path(page) %></td>
-        <td><%= link_to 'Destroy', page, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Page', new_page_path %>
+<div class="header">
+<%
+=begin%>
+ <%= image_tag  "computer-background.jpg" %> 
+<%
+=end%>
+<h1 class="d-flex justify-content-center text-center">I'm Doyinsola, <br> Welcome to my world!</h1>
+<p class="d-flex justify-content-center text-center">I’m a software developer! I can help you build a product, <br> feature or website Look through some of my work <br> and experience! If you like what you see and have a project <br> you need coded, don’t hestiate to contact me.
+</p>
+</div>

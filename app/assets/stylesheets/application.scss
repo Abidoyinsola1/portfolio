@@ -1,1 +1,16 @@
 @import "bootstrap";
+
+.header h1 {
+    color: green;
+    letter-spacing: 3px;
+}
+
+.header p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+.header {
+    margin-top: 15rem;
+}
